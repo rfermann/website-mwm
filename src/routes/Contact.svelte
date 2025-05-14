@@ -1,6 +1,5 @@
 <script>
 	import { CONTACT_INFO, OPENING_HOURS } from '$lib/constants';
-	import { m } from '$lib/paraglide/messages';
 	import ClockIcon from '@lucide/svelte/icons/clock';
 	import MailIcon from '@lucide/svelte/icons/mail';
 	import MapPinIcon from '@lucide/svelte/icons/map-pin';
@@ -11,7 +10,7 @@
 	<div class="container mx-auto px-4 md:px-6">
 		<div class="mb-16 text-center">
 			<h2 class="mt-12 mb-4 font-serif text-3xl font-bold text-gray-900 md:text-4xl">
-				{m.bland_mad_quail_commend()}
+				Besuche uns
 			</h2>
 			<p class="mx-auto max-w-2xl text-gray-600">
 				Wir befinden uns in günstiger Lage im Herzen Nürnbergs.
