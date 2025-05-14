@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	server: {
-		allowedHosts: ["dev.mwellnessmassage.de"]
+		allowedHosts: ['dev.mwellnessmassage.de', 'mwellnessmassage.de']
 	},
 	plugins: [
 		tailwindcss(),
