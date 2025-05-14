@@ -3,7 +3,10 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const config = {
 	preprocess: vitePreprocess(),
-	kit: { adapter: adapter() }
+	kit: { adapter: adapter() },
+	optimizeDeps: {
+    exclude: ['@lucide']
+},
 };
 
 export default config;
