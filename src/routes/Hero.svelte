@@ -24,7 +24,7 @@
 		</p>
 		<div class="flex flex-col justify-center gap-4 sm:flex-row">
 			<a
-				href="#services"
+				href="#contact"
 				class="rounded-md bg-emerald-700 px-8 py-3 font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
 				>Anwendung buchen</a
 			>

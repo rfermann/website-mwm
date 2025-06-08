@@ -38,7 +38,7 @@
 
 	<div class="container mx-auto flex items-center justify-between px-4 py-6 md:px-6">
 		<a
-			href="#home"
+			href="/"
 			class="font-serif text-2xl font-bold transition-colors duration-300 md:text-3xl {isScrolled
 				? ''
 				: page.route.id !== '/'
