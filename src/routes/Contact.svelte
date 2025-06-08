@@ -4,6 +4,8 @@
 	import MailIcon from '@lucide/svelte/icons/mail';
 	import MapPinIcon from '@lucide/svelte/icons/map-pin';
 	import PhoneIcon from '@lucide/svelte/icons/phone';
+
+	let mapConsent = $state(false);
 </script>
 
 <section id="contact" class="bg-white py-16 md:py-24">
@@ -98,15 +100,34 @@
 				</div>
 			</div>
 
-			<div class="h-[400px] overflow-hidden rounded-lg shadow-md md:h-[500px]">
-				<iframe
-					src={CONTACT_INFO.mapUrl}
-					class="h-full w-full border-0"
-					allowfullscreen
-					loading="lazy"
-					title="Location map"
-				></iframe>
-			</div>
+			{#if !mapConsent}
+				<div
+					class="flex h-[400px] flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-8 text-center md:h-[500px]"
+				>
+					<h3 class="mb-4 font-serif text-xl font-medium text-gray-900">
+						Kartenansicht aktivieren
+					</h3>
+					<p class="mb-6 max-w-md text-gray-600">
+						Um die Kartenansicht zu sehen, müssen Sie der Nutzung von Google Maps zustimmen.
+					</p>
+					<button
+						onclick={() => (mapConsent = true)}
+						class="rounded-md bg-emerald-700 px-6 py-3 font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+					>
+						Karte anzeigen
+					</button>
+				</div>
+			{:else}
+				<div class="h-[400px] overflow-hidden rounded-lg shadow-md md:h-[500px]">
+					<iframe
+						src={CONTACT_INFO.mapUrl}
+						class="h-full w-full border-0"
+						allowfullscreen
+						loading="lazy"
+						title="Location map"
+					></iframe>
+				</div>
+			{/if}
 		</div>
 	</div>
 </section>
