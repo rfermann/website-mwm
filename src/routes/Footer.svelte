@@ -99,7 +99,10 @@
 		<div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
 			<p>&copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
 			<br />
-			<p><a href="/impressum">Impressum</a></p>
+			<div class="flex justify-center space-x-4">
+				<p><a href="/impressum">Impressum</a></p>
+				<p><a href="/datenschutz">Datenschutz</a></p>
+			</div>
 		</div>
 	</div>
 </footer>
