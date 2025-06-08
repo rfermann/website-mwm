@@ -1,6 +1,6 @@
 import type { Service } from '../types';
 
-const SITE_NAME = 'M Massage & Wellness';
+const SITE_NAME = 'M Wellness & Massage';
 const SITE_DESCRIPTION = 'Authentische Thai-Massage und Wellnessbehandlungen im Herzen Nürnbergs';
 
 const NAV_LINKS: {
