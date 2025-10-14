@@ -27,14 +27,14 @@
 			? 'bg-white shadow-md'
 			: 'bg-transparent'}"
 >
-	<div class="relative bg-emerald-700 py-2 text-center text-white">
+	<!-- <div class="relative bg-emerald-700 py-2 text-center text-white">
 		<div class="container mx-auto px-4">
 			<p class="font-medium">
 				🎉 Sonderangebot: Entspann' dich und spare! 4,00€ Rabatt bei einer Massage ab 60 Minuten.
 				Gültig bis 30.09.2025 (nach Terminvereinbarung).
 			</p>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="container mx-auto flex items-center justify-between px-4 py-6 md:px-6">
 		<a
