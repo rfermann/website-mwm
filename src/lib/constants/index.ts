@@ -1,7 +1,7 @@
 import type { Service } from '../types';
 
 const SITE_NAME = 'M Wellness & Massage';
-const SITE_DESCRIPTION = 'Authentische Thai-Massage und Wellnessbehandlungen im Herzen Nürnbergs';
+const SITE_DESCRIPTION = 'Authentische Thai-Massage und Wellnessanwendungen im Herzen Nürnbergs';
 
 const NAV_LINKS: {
 	name: string;
@@ -78,7 +78,7 @@ const SERVICES: Service[] = [
 		note: 'mit / ohne Öl',
 		image: '/1000030746.jpg',
 		description:
-			'Die Massagestrategie konzentriert sich auf den Oberkörper und zielt speziell auf Bereiche ab, die zu Verspannungen und Stress neigen. Diese Behandlung zielt darauf ab, Beschwerden zu lindern, Muskelverspannungen zu lindern und die Entspannung zu erleichtern, indem sie sich auf die Kopf-, Rücken-, Nacken- und Schultermuskulatur konzentriert.'
+			'Die Massagestrategie konzentriert sich auf den Oberkörper und zielt speziell auf Bereiche ab, die zu Verspannungen und Stress neigen. Diese Anwendung zielt darauf ab, Beschwerden zu lindern, Muskelverspannungen zu lindern und die Entspannung zu erleichtern, indem sie sich auf die Kopf-, Rücken-, Nacken- und Schultermuskulatur konzentriert.'
 	},
 	{
 		name: 'M FIT- Extra starke THAIdruck + Ölmassage',

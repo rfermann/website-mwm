@@ -73,7 +73,7 @@
 				<div class="rounded-lg border border-emerald-100 bg-emerald-50 p-6 md:p-8">
 					<h3 class="mb-4 font-serif text-xl font-bold text-gray-900">Buche deinen Besuch</h3>
 					<p class="mb-6 text-gray-700">
-						Bist du bereit für authentische Thai-Massagen und Wellnessbehandlungen? Buche deinen
+						Bist du bereit für authentische Thai-Massagen und Wellnessanwendungen? Buche deinen
 						Termin online oder kontaktiere uns direkt.
 					</p>
 					<div class="flex flex-col gap-4 sm:flex-row">

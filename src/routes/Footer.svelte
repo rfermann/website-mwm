@@ -37,7 +37,7 @@
 				</div>
 				<p class="mb-6 text-gray-400">
 					Authentische Thai-Massage und Wellness im Herzen Nürnbergs. Erleben Sie traditionelle
-					Heiltechniken in modernem, ruhigem Ambiente.
+					Wellness-Techniken in modernem, ruhigem Ambiente.
 				</p>
 				<div class="flex gap-2">
 					<a href={SOCIAL_MEDIA_LINKS.facebook} target="_blank" rel="noopener noreferrer">

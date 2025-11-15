@@ -11,14 +11,14 @@
 			<p class="mx-auto max-w-2xl text-gray-600">
 				<!-- Experience authentic Thai massage techniques and wellness treatments delivered by our
 				skilled therapists in a tranquil environment. -->
-				Erlebe authentische Thai-Massagetechniken und Wellnessbehandlungen, die von unseren geschulten
-				Therapeuten in einer ruhigen Umgebung durchgeführt werden.
+				Erlebe authentische Thai-Massagetechniken und Wellnessanwendung, die von unseren geschulten Therapeuten
+				in einer ruhigen Umgebung durchgeführt werden.
 			</p>
 			<br />
 			<p class="mx-auto max-w-2xl text-gray-600 italic">
 				Bei M Wellness & Massage haben unsere Kunden die Möglichkeit, bei einer Buchung einer
-				Behandlungsdauer von über 60 Minuten ein kostenloses Fußbad und Hot Stone zu genießen, dies
-				ist abhängig von der gewählten Behandlung.
+				Anwendungsdauer von über 60 Minuten ein kostenloses Fußbad und Hot Stone zu genießen, dies
+				ist abhängig von der gewählten Anwendung.
 			</p>
 		</div>
 
