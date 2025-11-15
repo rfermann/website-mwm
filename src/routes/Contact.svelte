@@ -76,6 +76,12 @@
 						Bist du bereit für authentische Thai-Massagen und Wellnessanwendungen? Buche deinen
 						Termin online oder kontaktiere uns direkt.
 					</p>
+					<p
+						class="mb-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm font-medium text-red-800"
+					>
+						Wichtiger Hinweis: Wir bieten bei M Wellness & Massage ausschließlich qualifizierte
+						Massagen an, KEINE EROTISCHEN Dienstleistungen.
+					</p>
 					<div class="flex flex-col gap-4 sm:flex-row">
 						<!-- TODO: replace button after booking service has been added -->
 						<!-- <a
