@@ -27,14 +27,18 @@
 			? 'bg-white shadow-md'
 			: 'bg-transparent'}"
 >
-	<!-- <div class="relative bg-emerald-700 py-2 text-center text-white">
+	<div class="relative bg-emerald-700 py-2 text-center text-white">
 		<div class="container mx-auto px-4">
+			<p class="font-medium">🌟 Willkommen bei M Wellness & Massage! 🌟</p>
 			<p class="font-medium">
-				🎉 Sonderangebot: Entspann' dich und spare! 4,00€ Rabatt bei einer Massage ab 60 Minuten.
-				Gültig bis 30.09.2025 (nach Terminvereinbarung).
+				Erleben Sie eine 90 min, Massage für nur ab 79 EUR! Gönnen Sie sich eine Auszeit mit warmen
+				Handtüchern.
+			</p>
+			<p class="font-medium">
+				Jetzt Termin sichern! Kontaktieren Sie uns unkompliziert über WhatsApp/SMS!
 			</p>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="container mx-auto flex items-center justify-between px-4 py-6 md:px-6">
 		<a
