@@ -32,7 +32,7 @@
 			<p class="font-medium">🌟 Willkommen bei M Wellness & Massage! 🌟</p>
 			<p class="font-medium">
 				Erleben Sie eine 90 min, Massage für nur ab 79 EUR! Gönnen Sie sich eine Auszeit mit warmen
-				Handtüchern.
+				Handtüchern und Fußbad.
 			</p>
 			<p class="font-medium">
 				Jetzt Termin sichern! Kontaktieren Sie uns unkompliziert über WhatsApp/SMS!
