@@ -8,15 +8,15 @@ const NAV_LINKS: {
 	href: string;
 	cta?: boolean;
 }[] = [
-	{ name: 'Home', href: '/#home' },
-	{ name: 'Leistungen', href: '/#services' },
-	// { name: 'Über uns', href: '#about' },
-	// { name: 'Galerie', href: '#gallery' },
-	// { name: 'Testimonials', href: '#testimonials' },
-	// { name: 'Jetzt buchen', href: '#booking', cta: true },
-	{ name: 'Kontakt', href: '/#contact' },
-	{ name: 'Über uns', href: '/#us' }
-];
+		{ name: 'Home', href: '/#home' },
+		{ name: 'Leistungen', href: '/#services' },
+		// { name: 'Über uns', href: '#about' },
+		// { name: 'Galerie', href: '#gallery' },
+		// { name: 'Testimonials', href: '#testimonials' },
+		// { name: 'Jetzt buchen', href: '#booking', cta: true },
+		{ name: 'Kontakt', href: '/#contact' },
+		{ name: 'Über uns', href: '/#us' }
+	];
 
 const OPENING_HOURS: { day: string; hours: string }[] = [
 	{ day: 'Montag - Freitag', hours: '09:00 - 19:00' },
@@ -29,7 +29,7 @@ const SERVICES: Service[] = [
 		name: 'M Relaxing Ölmassage',
 		id: 'relaxing-oelmassage',
 		duration: 60,
-		price: 54,
+		price: 58,
 		note: 'mit Fußbad und Hotstone',
 		image:
 			'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -40,7 +40,7 @@ const SERVICES: Service[] = [
 		name: 'M Kombi THAIdruck + Ölmassage',
 		id: 'kombi-thaidruck-oelmassage',
 		duration: 60,
-		price: 54,
+		price: 58,
 		note: 'mit Fußbad und Hotstone',
 		image: '/1000030752.jpg',
 		description:
@@ -50,7 +50,7 @@ const SERVICES: Service[] = [
 		name: 'Traditionelle Thai-Massage',
 		id: 'traditionelle-thai-massage',
 		duration: 60,
-		price: 54,
+		price: 58,
 		note: 'mit Fußbad',
 		image:
 			'https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -102,13 +102,13 @@ const CONTACT_INFO: { address: string; phone: string; email: string; mapUrl: str
 };
 
 const SOCIAL_MEDIA_LINKS: { facebook: string; instagram: string; twitter: string; google: string } =
-	{
-		facebook: 'https://www.facebook.com/share/1ZSxZDSKAf/',
-		instagram: 'https://www.instagram.com/m.wellness.massage.nuernberg',
-		twitter: 'https://x.com/mwelln8massage',
-		google:
-			'https://www.google.com/maps/place/M+Wellness+%26+Massage+City+Center+N%C3%BCrnberg/@49.4492152,11.0729617,1147m/data=!3m2!1e3!5s0x479f57a8f81aef81:0x28613f4941c1346b!4m8!3m7!1s0x479f57b005953917:0x8b3b2e1b7fb48a95!8m2!3d49.4492152!4d11.0729617!9m1!1b1!16s%2Fg%2F11m5yqc9dj?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D'
-	};
+{
+	facebook: 'https://www.facebook.com/share/1ZSxZDSKAf/',
+	instagram: 'https://www.instagram.com/m.wellness.massage.nuernberg',
+	twitter: 'https://x.com/mwelln8massage',
+	google:
+		'https://www.google.com/maps/place/M+Wellness+%26+Massage+City+Center+N%C3%BCrnberg/@49.4492152,11.0729617,1147m/data=!3m2!1e3!5s0x479f57a8f81aef81:0x28613f4941c1346b!4m8!3m7!1s0x479f57b005953917:0x8b3b2e1b7fb48a95!8m2!3d49.4492152!4d11.0729617!9m1!1b1!16s%2Fg%2F11m5yqc9dj?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D'
+};
 export {
 	CONTACT_INFO,
 	NAV_LINKS,
