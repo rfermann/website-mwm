@@ -94,7 +94,7 @@ const SERVICES: Service[] = [
 ];
 
 const CONTACT_INFO: { address: string; phone: string; email: string; mapUrl: string } = {
-	address: 'Breite Gasse 40, 90402 Nürnberg',
+	address: 'Breite Gasse 40, 1. OG, 90402 Nürnberg',
 	phone: '+49 159 0141 3451',
 	email: 'info@mwellnessmassage.de',
 	mapUrl:
