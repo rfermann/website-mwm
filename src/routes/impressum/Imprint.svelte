@@ -12,7 +12,7 @@
 			M Wellness & Massage City Center Nürnberg
 			<br />
 			<br />
-			Dr.-Kurt-Schumacher-Str. 9<br />
+			Breite Gasse 40<br />
 			90402 Nürnberg <br />
 		</p>
 		<p>

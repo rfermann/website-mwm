@@ -94,11 +94,11 @@ const SERVICES: Service[] = [
 ];
 
 const CONTACT_INFO: { address: string; phone: string; email: string; mapUrl: string } = {
-	address: 'UG, Dr.-Kurt-Schumacher-Straße 9, 90402 Nürnberg',
+	address: 'Breite Gasse 40, 1. OG, 90402 Nürnberg',
 	phone: '+49 159 0141 3451',
 	email: 'info@mwellnessmassage.de',
 	mapUrl:
-		'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4995.222013583456!2d11.072961699999999!3d49.4492152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57b005953917%3A0x8b3b2e1b7fb48a95!2sM%20Wellness%20%26%20Massage%20City%20Center%20N%C3%BCrnberg!5e1!3m2!1sen!2sde!4v1746372319694!5m2!1sen!2sde'
+		'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30474.709965379705!2d11.075878963153047!3d49.45442152080929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f5772bffa3d49%3A0x3199faa2ee1a2221!2sM%20Wellness%20%26%20ThaiMassage%20City%20Center%20N%C3%BCrnberg!5e1!3m2!1sde!2sth!4v1771057377961!5m2!1sde!2sth'
 };
 
 const SOCIAL_MEDIA_LINKS: { facebook: string; instagram: string; twitter: string; google: string } =
@@ -109,6 +109,7 @@ const SOCIAL_MEDIA_LINKS: { facebook: string; instagram: string; twitter: string
 	google:
 		'https://www.google.com/maps/place/M+Wellness+%26+Massage+City+Center+N%C3%BCrnberg/@49.4492152,11.0729617,1147m/data=!3m2!1e3!5s0x479f57a8f81aef81:0x28613f4941c1346b!4m8!3m7!1s0x479f57b005953917:0x8b3b2e1b7fb48a95!8m2!3d49.4492152!4d11.0729617!9m1!1b1!16s%2Fg%2F11m5yqc9dj?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D'
 };
+
 export {
 	CONTACT_INFO,
 	NAV_LINKS,
