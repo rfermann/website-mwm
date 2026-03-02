@@ -85,8 +85,8 @@ const SERVICES: Service[] = [
 	// 		'Rücken-, Nacken- und Schultermassage beinhaltet eine Vielzahl von therapeutischen Strategien, die speziell entwickelt wurden, um Beschwerden zu lindern und Stress in diesen Bereichen zu lindern. Techniken wie die schwedische Massage, die sich durch lange, fließende Striche auszeichnet, helfen bei der Förderung der Entspannung und der Verbesserung der Durchblutung.'
 	// },
 	{
-		name: 'Rücken- oder Fußmassage',
-		id: 'ruecken-oder-fussmassage',
+		name: 'Rückenmassage',
+		id: 'rueckenmassage',
 		duration_1: 30,
 		duration_2: 45,
 		price_1: 40,
