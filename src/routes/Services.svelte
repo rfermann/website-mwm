@@ -11,14 +11,16 @@
 			<p class="mx-auto max-w-2xl text-gray-600">
 				<!-- Experience authentic Thai massage techniques and wellness treatments delivered by our
 				skilled therapists in a tranquil environment. -->
-				Erlebe authentische Thai-Massagetechniken und Wellnessanwendung, die von unseren geschulten Therapeuten
-				in einer ruhigen Umgebung durchgeführt werden.
+				Exquisite Botanische Thai- & Wellnessmassage — Premium, Ruhige Erholung
 			</p>
 			<br />
 			<p class="mx-auto max-w-2xl text-gray-600 italic">
-				Bei M Wellness & Massage haben unsere Kunden die Möglichkeit, bei einer Buchung einer
-				Anwendungsdauer von über 60 Minuten ein kostenloses Fußbad und Hot Stone zu genießen, dies
-				ist abhängig von der gewählten Anwendung.
+				Erlebe eine luxuriöse, botanisch inspirierte Massage-Erfahrung: traditionelle Thai-Techniken
+				vereint mit feinen Wellness- und Sportmassage-Elementen — ausgeführt von erfahrenen
+				Massage-Spezialisten in einem warmen, kerzenbeleuchteten Raum. Wir setzen auf sorgfältig
+				ausgewählte botanische Öle, dezente Düfte und individuell abgestimmten Druck, damit du dich
+				rundum betreut und entspannt fühlst. Für Reisende und Einheimische, die hohe Ansprüche an
+				Ruhe, Diskretion und Qualität stellen — nicht vergleichbar mit gewöhnlichen Thai-Massagen.
 			</p>
 		</div>
 
