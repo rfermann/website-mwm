@@ -26,70 +26,129 @@ const OPENING_HOURS: { day: string; hours: string }[] = [
 
 const SERVICES: Service[] = [
 	{
-		name: 'M Relaxing Ölmassage',
-		id: 'relaxing-oelmassage',
-		duration: 60,
-		price: 58,
-		note: 'mit Fußbad und Hotstone',
-		image:
-			'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-		description:
-			'M Relaxing Ölmassage bietet ein ganzheitliches Erlebnis, das sowohl das körperliche als auch das emotionale Wohlbefinden anspricht. Sie stellt eine hervorragende Möglichkeit dar, sich abzuschalten, Stress abzubauen und die Gesundheit und das Wohlbefinden insgesamt zu verbessern.'
-	},
-	{
-		name: 'M Kombi THAIdruck + Ölmassage',
-		id: 'kombi-thaidruck-oelmassage',
-		duration: 60,
-		price: 58,
-		note: 'mit Fußbad und Hotstone',
-		image: '/1000030752.jpg',
-		description:
-			'Die M Kombi THAI Ölmassage ist eine Massagetechnik, die traditionelle Thai-Massage-Prinzipien beinhaltet und gleichzeitig Öle verwendet, um das Erlebnis zu verbessern und die Entspannung zu fördern. Es beinhaltet die Anwendung von Ölen auf die Haut und die Verwendung einer Vielzahl von Massagebewegungen, einschließlich Gleiten, Rollen und Dehnen, um Stress zu lindern, die Durchblutung zu verbessern und die Flexibilität zu erhöhen.'
-	},
-	{
 		name: 'Traditionelle Thai-Massage',
 		id: 'traditionelle-thai-massage',
-		duration: 60,
-		price: 58,
+		duration_1: 60,
+		duration_2: 90,
+		duration_3: 120,
+		price_1: 75,
+		price_2: 110,
+		price_3: 140,
 		note: 'mit Fußbad',
 		image:
 			'https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 		description:
-			'Die traditionelle Thai-Massage ist eine umfassende Körpermassage, die eine Kombination aus Tiefengewebsdruck, Muskel- und Gelenkdehnung sowie sanfter Körperbewegung in yogaähnliche Positionen nutzt. Diese Methode wird seit Jahrtausenden praktiziert und zählt zu den am weitesten verbreiteten Formen der Alternativmedizin in Thailand.'
+			'Erleben Sie die Seele Thailands mit unserer traditionellen Thai-Massage. Diese Massage kombiniert sanfte Dehnungen, Druckpunkt-Techniken und beruhigende Berührungen, um Körper und Geist in Einklang zu bringen. Lassen Sie sich in eine Welt der Entspannung entführen.'
 	},
 	{
-		name: 'Kopf-Nacken-Schulter-Rückenmassage',
-		id: 'kopf-nacken-schulter-rueckenmassage',
-		duration: 30,
-		price: 35,
+		name: 'M Relaxing Massage',
+		id: 'relaxing-massage',
+		duration_1: 60,
+		duration_2: 90,
+		duration_3: 120,
+		price_1: 75,
+		price_2: 110,
+		price_3: 140,
+		note: 'mit Fußbad und Hotstone',
+		image:
+			'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+		description:
+			'Gönnen Sie sich eine Auszeit mit unserer M-Relaxing-Massage, die speziell entwickelt wurde, um Stress abzubauen und die Muskulatur zu entspannen. Warme Öle und eine ruhige Atmosphäre schaffen das perfekte Ambiente für Ihre Erholung.'
+	},
+	{
+		name: 'Thai-Ölmassage',
+		id: 'thai-oelmassage',
+		duration_1: 60,
+		duration_2: 90,
+		duration_3: 120,
+		price_1: 75,
+		price_2: 110,
+		price_3: 140,
+		note: 'mit Fußbad und Hotstone',
+		image: '/1000030752.jpg',
+		description:
+			'Tauchen Sie ein in ein luxuriöses Erlebnis mit unserer Thai-Ölmassage. Die Kombination aus gezielten Bewegungen und wohlriechenden Ölen fördert das Wohlgefühl und hilft, Verspannungen zu lösen. Ideal für eine harmonisierende Auszeit.'
+	},
+	// {
+	// 	name: 'Kopf-Nacken-Schulter-Rückenmassage',
+	// 	id: 'kopf-nacken-schulter-rueckenmassage',
+	// 	duration_1: 30,
+	// 	duration_2: 60,
+	// 	price_1: 35,
+	// 	price_2: 60,
+	// 	note: 'ab 60 Min. mit Hotstone',
+	// 	image:
+	// 		'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+	// 	// image:
+	// 	// ',
+	// 	description:
+	// 		'Rücken-, Nacken- und Schultermassage beinhaltet eine Vielzahl von therapeutischen Strategien, die speziell entwickelt wurden, um Beschwerden zu lindern und Stress in diesen Bereichen zu lindern. Techniken wie die schwedische Massage, die sich durch lange, fließende Striche auszeichnet, helfen bei der Förderung der Entspannung und der Verbesserung der Durchblutung.'
+	// },
+	{
+		name: 'Rücken- oder Fußmassage',
+		id: 'ruecken-oder-fussmassage',
+		duration_1: 30,
+		duration_2: 45,
+		price_1: 40,
+		price_2: 55,
 		note: 'ab 60 Min. mit Hotstone',
 		image:
 			'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-		// image:
-		// ',
 		description:
-			'Rücken-, Nacken- und Schultermassage beinhaltet eine Vielzahl von therapeutischen Strategien, die speziell entwickelt wurden, um Beschwerden zu lindern und Stress in diesen Bereichen zu lindern. Techniken wie die schwedische Massage, die sich durch lange, fließende Striche auszeichnet, helfen bei der Förderung der Entspannung und der Verbesserung der Durchblutung.'
+			'Verwöhnen Sie sich mit einer entspannenden Kopf-Nacken-Schulter-Rücken-Massage, die gezielt Verspannungen löst und für ein vollkommen neues Körpergefühl sorgt. Lassen Sie den Stress hinter sich und kehren Sie revitalisiert zurück.'
 	},
 	{
-		name: 'Relax&Go Massage',
-		id: 'relax-go',
-		duration: 20,
-		price: 27,
-		note: 'mit / ohne Öl',
-		image: '/1000030746.jpg',
+		name: 'Fußmassage',
+		id: 'fussmassage',
+		duration_1: 30,
+		duration_2: 45,
+		price_1: 40,
+		price_2: 55,
+		note: 'mit Fußbad und Hotstone',
+		image:
+			'https://images.pexels.com/photos/9146383/pexels-photo-9146383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 		description:
-			'Die Massagestrategie konzentriert sich auf den Oberkörper und zielt speziell auf Bereiche ab, die zu Verspannungen und Stress neigen. Diese Anwendung zielt darauf ab, Beschwerden zu lindern, Muskelverspannungen zu lindern und die Entspannung zu erleichtern, indem sie sich auf die Kopf-, Rücken-, Nacken- und Schultermuskulatur konzentriert.'
+			'Unsere Fußmassage bringt neue Energie und belebt Ihren ganzen Körper. Durch Druckpunkte und entspannende Techniken erfahren Sie eine wohltuende Erleichterung. Perfekt nach einem langen Tag oder beim Sightseeing in Nürnberg.'
+	},
+	// {
+	// 	name: 'Relax&Go Massage',
+	// 	id: 'relax-go',
+	// 	duration_1: 20,
+	// 	duration_2: 40,
+	// 	price_1: 27,
+	// 	price_2: 40,
+	// 	note: 'mit / ohne Öl',
+	// 	image: '/1000030746.jpg',
+	// 	description:
+	// 		'Die Massagestrategie konzentriert sich auf den Oberkörper und zielt speziell auf Bereiche ab, die zu Verspannungen und Stress neigen. Diese Anwendung zielt darauf ab, Beschwerden zu lindern, Muskelverspannungen zu lindern und die Entspannung zu erleichtern, indem sie sich auf die Kopf-, Rücken-, Nacken- und Schultermuskulatur konzentriert.'
+	// },
+	{
+		name: 'Paarmassage',
+		id: 'paarmassage',
+		duration_1: 60,
+		duration_2: 90,
+		duration_3: 120,
+		price_1: 140,
+		price_2: 215,
+		price_3: 275,
+		image: 'https://images.pexels.com/photos/7365414/pexels-photo-7365414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+		description:
+			'Genießen Sie eine besondere Zeit zu zweit mit unserer Paarmassage. Ein gemeinsames Erlebnis, das Nähe und Entspannung fördert. Lassen Sie sich von unserem Team verwöhnen und erleben Sie gemeinsam Momente der Ruhe und Besinnung.'
 	},
 	{
-		name: 'M FIT- Extra starke THAIdruck + Ölmassage',
-		id: 'm-fit-extra-starke-thaidruck-oelmassage',
-		duration: 60,
-		price: 64,
+		name: 'MY Signature Massage (früher M-FIT)',
+		id: 'my-signature-massage',
+		duration_1: 65,
+		duration_2: 95,
+		duration_3: 125,
+		price_1: 85,
+		price_2: 120,
+		price_3: 160,
 		note: 'mit Fußbad und Hotstone',
 		image:
 			'https://images.pexels.com/photos/5240696/pexels-photo-5240696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 		description:
-			'M FIT-Massage ist eine spezialisierte Form der Massage-Therapie, entwickelt, um Sportler und aktive Personen vor, während und nach der körperlichen Aktivität zu unterstützen. Es verwendet eine Vielzahl von Techniken, um bestimmte Muskelgruppen und Weichgewebe anzusprechen, mit dem Ziel, die Leistung zu verbessern, die Genesung zu unterstützen und Verletzungen zu verhindern. Im Gegensatz zur herkömmlichen Entspannungsmassage konzentriert sich M FIT oder auch Sportmassage, Tiefengewebsmassage (Deep Tissue Massage) auf die einzigartigen Anforderungen, die durch körperliche Aktivität an den Körper gestellt werden, wie Muskelkater, Steifheit und Ungleichgewichte.'
+			'Erleben Sie eine personalisierte Massage, die speziell auf Ihre Bedürfnisse abgestimmt ist. Unsere Experten kombinieren verschiedene Techniken zu einem individuellen Erlebnis. Ideal, um Körper und Seele in Einklang zu bringen.'
 	}
 ];
 

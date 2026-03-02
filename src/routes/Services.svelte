@@ -22,10 +22,15 @@
 			</p>
 		</div>
 
-		<div class="grid auto-rows-fr grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-			{#each SERVICES as service (service.id)}
+		<div
+			class="grid auto-rows-fr grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3"
+		>
+			{#each SERVICES as service, index (service.id)}
 				<div
-					class="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:-translate-y-2"
+					class="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:-translate-y-2 {index >=
+						Math.floor(SERVICES.length / 3) * 3 && SERVICES.length % 3 === 1
+						? 'lg:col-start-2'
+						: ''}"
 				>
 					<div class="h-64 overflow-hidden">
 						<img
@@ -45,20 +50,36 @@
 						</div>
 						<div class="flex items-center justify-between">
 							<div>
-								<span class="text-lg font-bold text-emerald-700">ab €{service.price}</span>
-								<span class="ml-2 text-gray-500">/ {service.duration} min</span>
-								<p class="text-sm">({service.note})</p>
+								<p>
+									<span class="text-primary-700 text-lg font-bold">{service.price_1} €</span>
+									<span class="text-gray-500">/ {service.duration_1} min</span>
+								</p>
+								{#if service.price_2}
+									<p>
+										<span class="text-primary-700 text-lg font-bold">{service.price_2} €</span>
+										<span class="text-gray-500">/ {service.duration_2} min</span>
+									</p>
+								{/if}
+								{#if service.price_3}
+									<p>
+										<span class="text-primary-700 text-lg font-bold">{service.price_3} €</span>
+										<span class="text-gray-500">/ {service.duration_3} min</span>
+									</p>
+								{/if}
+								{#if service.note}
+									<p class="text-sm">({service.note})</p>
+								{/if}
 							</div>
 							<!-- TODO: replace button after booking service has been added -->
 							<!-- <a
 								href="#booking"
-								class="rounded bg-emerald-700 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+								class="rounded bg-primary-700 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-primary-800"
 							>
 								Book Now
 							</a> -->
 							<a
 								href="https://wa.me/{CONTACT_INFO.phone.replace(/\s/g, '')}"
-								class="rounded bg-emerald-700 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+								class="bg-primary-700 hover:bg-primary-800 rounded px-4 py-2 text-sm font-medium text-white transition-colors duration-300"
 							>
 								Jetzt buchen
 							</a>
