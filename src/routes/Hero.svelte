@@ -25,12 +25,12 @@
 		<div class="flex flex-col justify-center gap-4 sm:flex-row">
 			<a
 				href="#contact"
-				class="rounded-md bg-emerald-700 px-8 py-3 font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+				class="bg-primary-700 hover:bg-primary-800 rounded-md px-8 py-3 font-medium text-white transition-colors duration-300"
 				>Anwendung buchen</a
 			>
 			<a
 				href="#services"
-				class="rounded-md bg-white px-8 py-3 font-medium text-emerald-800 transition-colors duration-300 hover:bg-gray-200"
+				class="text-primary-800 rounded-md bg-white px-8 py-3 font-medium transition-colors duration-300 hover:bg-gray-200"
 				>Dienstleistungen erkunden</a
 			>
 		</div>

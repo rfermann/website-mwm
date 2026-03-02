@@ -28,6 +28,7 @@
 :root {
 	--font-raleway: 'Raleway Variable', sans-serif;
 	--font-playfair: 'Playfair Display', serif;
+	--color-primary: oklch(85.494% 0.02633 128.81);
 }
 
 html {
@@ -42,4 +43,17 @@ body {
 @theme {
 	--font-playfair: 'Playfair Display', sans-serif;
 	--font-raleway: 'Raleway', sans-serif;
+
+	--color-primary: oklch(85.494% 0.02633 128.81);
+	--color-primary-50: oklch(100% 0 none);
+	--color-primary-100: oklch(100% 0 none);
+	--color-primary-200: oklch(100% 0 none);
+	--color-primary-300: oklch(96.752% 0.00569 128.53);
+	--color-primary-400: oklch(91.122% 0.01607 130.43);
+	--color-primary-500: oklch(85.494% 0.02633 128.81);
+	--color-primary-600: oklch(77.666% 0.04179 129.08);
+	--color-primary-700: oklch(69.455% 0.05619 128.9);
+	--color-primary-800: oklch(60.663% 0.06263 129.69);
+	--color-primary-900: oklch(49.961% 0.04939 129.64);
+	--color-primary-950: oklch(44.509% 0.04405 129.64);
 }

@@ -30,7 +30,7 @@
 
 					<div class="space-y-6">
 						<div class="flex items-start">
-							<MapPinIcon class="mr-4 h-6 w-6 flex-shrink-0 text-emerald-700" />
+							<MapPinIcon class="text-primary-800 mr-4 h-6 w-6 flex-shrink-0" />
 							<div>
 								<p class="mb-1 font-medium text-gray-900">Adresse</p>
 								<p class="text-gray-600">{CONTACT_INFO.address}</p>
@@ -38,23 +38,31 @@
 						</div>
 
 						<div class="flex items-start">
-							<PhoneIcon class="mr-4 h-6 w-6 flex-shrink-0 text-emerald-700" />
+							<PhoneIcon class="text-primary-800 mr-4 h-6 w-6 flex-shrink-0" />
 							<div>
 								<p class="mb-1 font-medium text-gray-900">Telefon</p>
-								<p class="text-gray-600">{CONTACT_INFO.phone}</p>
+								<p class="text-gray-600">
+									<a href="tel:{CONTACT_INFO.phone}" class="text-gray-600 underline"
+										>{CONTACT_INFO.phone}</a
+									>
+								</p>
 							</div>
 						</div>
 
 						<div class="flex items-start">
-							<MailIcon class="mr-4 h-6 w-6 flex-shrink-0 text-emerald-700" />
+							<MailIcon class="text-primary-800 mr-4 h-6 w-6 flex-shrink-0" />
 							<div>
 								<p class="mb-1 font-medium text-gray-900">Email</p>
-								<p class="text-gray-600">{CONTACT_INFO.email}</p>
+								<p class="text-gray-600">
+									<a href="mailto:{CONTACT_INFO.email}" class="text-gray-600 underline"
+										>{CONTACT_INFO.email}</a
+									>
+								</p>
 							</div>
 						</div>
 
 						<div class="flex items-start">
-							<ClockIcon class="mr-4 h-6 w-6 flex-shrink-0 text-emerald-700" />
+							<ClockIcon class="text-primary-800 mr-4 h-6 w-6 flex-shrink-0" />
 							<div>
 								<p class="mb-1 font-medium text-gray-900">Öffnungszeiten</p>
 								<ul class="space-y-1 text-gray-600">
@@ -70,7 +78,7 @@
 					</div>
 				</div>
 
-				<div class="rounded-lg border border-emerald-100 bg-emerald-50 p-6 md:p-8">
+				<div class="bg-primary-300 border-primary-400 rounded-lg border p-6 md:p-8">
 					<h3 class="mb-4 font-serif text-xl font-bold text-gray-900">Buche deinen Besuch</h3>
 					<p class="mb-6 text-gray-700">
 						Bist du bereit für authentische Thai-Massagen und Wellnessanwendungen? Buche deinen
@@ -86,19 +94,19 @@
 						<!-- TODO: replace button after booking service has been added -->
 						<!-- <a
 							href="#booking"
-							class="rounded-md bg-emerald-700 px-6 py-3 text-center font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+							class="rounded-md bg-primary-700 px-6 py-3 text-center font-medium text-white transition-colors duration-300 hover:bg-primary-800"
 						>
 							Jetzt online buchen
 						</a> -->
 						<a
 							href="https://wa.me/{CONTACT_INFO.phone.replace(/\s/g, '')}"
-							class="rounded-md bg-emerald-700 px-6 py-3 text-center font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+							class="bg-primary-700 hover:bg-primary-800 rounded-md px-6 py-3 text-center font-medium text-white transition-colors duration-300"
 						>
 							Jetzt buchen
 						</a>
 						<a
 							href="tel:{CONTACT_INFO.phone.replace(/\s/g, '')}"
-							class="rounded-md border border-emerald-600 bg-white px-6 py-3 text-center font-medium text-emerald-700 transition-colors duration-300 hover:bg-emerald-50"
+							class="border-primary-600 text-primary-700 hover:bg-primary-300 rounded-md border bg-white px-6 py-3 text-center font-medium transition-colors duration-300"
 						>
 							Rufe uns an
 						</a>
@@ -118,7 +126,7 @@
 					</p>
 					<button
 						onclick={() => (mapConsent = true)}
-						class="rounded-md bg-emerald-700 px-6 py-3 font-medium text-white transition-colors duration-300 hover:bg-emerald-800"
+						class="bg-primary-700 hover:bg-primary-800 rounded-md px-6 py-3 font-medium text-white transition-colors duration-300"
 					>
 						Karte anzeigen
 					</button>

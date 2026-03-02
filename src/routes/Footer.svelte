@@ -32,7 +32,7 @@
 		<div class="mb-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 			<div>
 				<div class="mb-4 flex items-center">
-					<LeafIcon class="mr-2 h-8 w-8 text-emerald-500" />
+					<LeafIcon class="text-primary-500 mr-2 h-8 w-8" />
 					<span class="font-playfair text-2xl font-bold">{SITE_NAME}</span>
 				</div>
 				<p class="mb-6 text-gray-400">

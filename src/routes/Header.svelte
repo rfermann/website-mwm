@@ -22,55 +22,62 @@
 
 <header
 	class="fixed top-0 right-0 left-0 z-50 transition-all duration-300 {isScrolled
-		? 'bg-white shadow-md'
+		? 'bg-primary-300 shadow-md'
 		: page.route.id !== '/'
-			? 'bg-white shadow-md'
+			? 'bg-primary-300 shadow-md'
 			: 'bg-transparent'}"
 >
-	<div class="relative bg-emerald-700 py-2 text-center text-white">
-		<div class="container mx-auto px-4">
-			<p class="font-medium">🌟 Willkommen bei M Wellness & Massage! 🌟</p>
-			<p class="font-medium">
-				Erleben Sie eine 90 min, Massage für nur ab 79 EUR! Gönnen Sie sich eine Auszeit mit warmen
-				Handtüchern und Fußbad.
+	<div class="bg-primary-500 relative py-2 text-center text-white">
+		<div class="container mx-auto flex flex-col gap-2">
+			<p class="mb-2 text-xl font-medium">
+				🌟 Stille Luxusmomente — 20% RABATT auf Massagen ab 60 Min 🌟
 			</p>
 			<p class="font-medium">
-				Jetzt Termin sichern! Kontaktieren Sie uns unkompliziert über WhatsApp/SMS!
+				Botanisches Premium-Erlebnis — Thai, Wellness oder Sportmassage mit warmem Öl, beheiztem
+				Raum und Kerzenambiente.
 			</p>
+			<p class="font-medium">
+				Jetzt per WhatsApp buchen: <a
+					href="https://wa.me/4915901413451"
+					class="text-white underline">+49 159 014 134 51</a
+				>
+				— Antwort in Kürze
+				<br />
+			</p>
+			<p class="text-sm font-medium">Keine Anrufe während der Massage. Gültig bis 31. März</p>
 		</div>
 	</div>
 
 	<div class="container mx-auto flex items-center justify-between px-4 py-6 md:px-6">
 		<a
 			href="/"
-			class="font-serif text-2xl font-bold transition-colors duration-300 md:text-3xl {isScrolled
-				? ''
+			class="hover:text-primary-500 font-serif text-2xl font-bold transition-colors duration-300 md:text-3xl {isScrolled
+				? 'text-primary-800'
 				: page.route.id !== '/'
-					? 'text-emerald-800'
+					? 'text-primary-800'
 					: 'text-white'}"
 		>
 			{SITE_NAME}
 		</a>
-
 		<nav class="hidden md:block">
 			<ul class="flex items-center space-x-8">
 				{#each NAV_LINKS as link}
 					{#if link.cta}
 						<!-- <li>
-							<button
-								class="rounded-md px-4 py-2 font-bold hover:opacity-90 {isScrolled
-									? 'bg-emerald-700 text-white'
-									: 'bg-white  text-emerald-700'}">{link.name}</button
-							>
-						</li> -->
+								<button
+									class="rounded-md px-4 py-2 font-bold hover:opacity-90 {isScrolled
+										? 'bg-primary-700 text-white'
+										: 'bg-white  text-primary-700'}">{link.name}</button
+								>
+							</li> -->
 					{:else}
 						<li>
 							<a
 								href={link.href}
-								class="text-sm font-medium transition-colors duration-300 hover:text-emerald-500 {isScrolled
-									? 'text-gray-800'
+								class="hover:text-primary-500 text-sm font-medium transition-colors duration-300 {isScrolled
+									? 'text-primary-800'
 									: page.route.id !== '/'
-										? 'text-gray-800'
+										? 'text-primary-800'
 										: 'text-white'}"
 							>
 								{link.name}
@@ -80,7 +87,6 @@
 				{/each}
 			</ul>
 		</nav>
-
 		<button
 			class="text-2xl focus:outline-none md:hidden"
 			onclick={() => (isMobileMenuOpen = !isMobileMenuOpen)}
@@ -90,14 +96,14 @@
 						transition:fade={{ duration: 200 }}
 						class="absolute inset-0 items-center justify-center"
 					>
-						<XIcon class={isScrolled ? 'text-gray-800' : 'text-white'} />
+						<XIcon class={isScrolled ? 'text-primary-800' : 'text-white'} />
 					</div>
 				{:else}
 					<div
 						transition:fade={{ duration: 200 }}
 						class="absolute inset-0 items-center justify-center"
 					>
-						<MenuIcon class={isScrolled ? 'text-gray-800' : 'text-white'} />
+						<MenuIcon class={isScrolled ? 'text-primary-800' : 'text-white'} />
 					</div>
 				{/if}
 			</div>
@@ -114,8 +120,8 @@
 					<li class="px-6 py-2">
 						<a
 							href={link.href}
-							class="block text-gray-800 hover:text-emerald-600 {link.cta
-								? 'font-bold text-emerald-700'
+							class="text-primary-800 hover:text-primary-600 block {link.cta
+								? 'text-primary-700 font-bold'
 								: ''}"
 							onclick={() => (isMobileMenuOpen = false)}
 						>
