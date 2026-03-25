@@ -11,6 +11,7 @@
 		SITE_NAME,
 		SOCIAL_MEDIA_LINKS
 	} from '../lib/constants';
+	import { base } from '$app/paths';
 
 	// Platzhalter für Öffnungszeiten und Leistungen
 	const openingHours = [
@@ -100,7 +101,7 @@
 			<p>&copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
 			<br />
 			<div class="flex justify-center space-x-4">
-				<p><a href="/impressum">Impressum</a></p>
+				<p><a href={`${base}/impressum`}>Impressum</a></p>
 				<p><a href="/datenschutz">Datenschutz</a></p>
 			</div>
 		</div>
