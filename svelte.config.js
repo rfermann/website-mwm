@@ -3,7 +3,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const config = {
 	preprocess: vitePreprocess(),
-	kit: { adapter: adapter(), paths: { base: '/app', assets: '/app' } },
+	kit: { adapter: adapter(), paths: { base: '/app' } },
 	optimizeDeps: {
     exclude: ['@lucide']
 },
